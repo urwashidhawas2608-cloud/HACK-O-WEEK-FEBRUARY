@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+.prose p {
+  @apply mb-2 last:mb-0;
+}
+
+.prose ul {
+  @apply list-disc pl-4 mb-2;
+}
+
+.prose li {
+  @apply mb-1;
+}

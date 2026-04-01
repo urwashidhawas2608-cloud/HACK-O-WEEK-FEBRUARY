@@ -1,0 +1,5 @@
+{
+  "name": "Student Support Chatbot",
+  "description": "An intelligent student assistant with entity recognition, multi-turn conversation support, and multi-platform simulation.",
+  "requestFramePermissions": []
+}
